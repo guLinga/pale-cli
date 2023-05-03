@@ -1,0 +1,21 @@
+{
+  "name": "pale-cli-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "qq84808045",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

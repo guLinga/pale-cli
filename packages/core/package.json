@@ -1,0 +1,30 @@
+{
+  "name": "@pale-cli-dev/core",
+  "version": "1.0.9",
+  "description": "pale-cli-dev core",
+  "author": "qq84808045 <2634917964@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "pale-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@pale-cli-dev/utils": "^1.0.9"
+  },
+  "gitHead": "c02244fcf89a6fc20cced531930fc73c76294edb"
+}
